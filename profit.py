@@ -10,4 +10,4 @@ x=input("please enter a number:")
 if x.isnumeric():
     print("very good")
 else:
-    print("stupid")
+   print("stupid")
