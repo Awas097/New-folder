@@ -142,6 +142,12 @@ print(100)
 # 2. enumerate()
 # 3. zip()
 
+#imortant
+#break
+#continue
+
+# for else loop
+
 # Range
 # Range function generates sequence in memory using start & end values.
 # Start value is Inclueded
