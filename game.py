@@ -1,6 +1,6 @@
 import pgzrun
 
-music.play('rolex')
+music.play('bgm')
 music.set_volume(0.3)
 
 b = Rect((50,50), (25,15))
