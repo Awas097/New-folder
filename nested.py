@@ -9,12 +9,12 @@ for i in range(6):
     fd(50)
     for i in range(6):
         pensize(3)
-        fd(25)
+        fd(13)
         fillcolor('yellow')
         begin_fill()
         for i in range(side-1):
             pensize(1)
-            fd(25)
+            fd(13)
         for i in range(side):
             fd(10)
             rt(360/side)

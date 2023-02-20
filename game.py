@@ -1,14 +1,14 @@
 import pgzrun
 
-music.play('bgm')
+music.play('rolex')
 music.set_volume(0.3)
 
-b = Rect((50,50), (25,15))
+b = Actor('fly2', (50,50))
 vx, vy = 3, 2
 
 def draw():
     screen.fill('red')
-    screen.draw.filled_rect(b, 'black')
+    b.draw()
 
 def update():
     global vx, vy
