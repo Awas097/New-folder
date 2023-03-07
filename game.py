@@ -20,5 +20,6 @@ def update():
     if b.bottom > 600 or b.top < 0:
         vy = -vy
         sounds.s1.play()
+    
 
 pgzrun.go()
